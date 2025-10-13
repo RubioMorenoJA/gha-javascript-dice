@@ -12,5 +12,5 @@ outputs:
   dice2: 
     value: ${{ steps.throw_dice_2.outputs.dice }}
 runs:
-  using: 'node19'
+  using: 'node18'
   main: 'dist/index.js'
