@@ -8,9 +8,9 @@ inputs:
     type: string
 outputs:
   dice1: 
-    value: ${{ steps.throw_dice_1.outputs.dice }}
+    description: 'Value of the first dice'
   dice2: 
-    value: ${{ steps.throw_dice_2.outputs.dice }}
+    description: 'Value of the second dice'
 runs:
   using: 'node20'
   main: 'dist/index.js'
