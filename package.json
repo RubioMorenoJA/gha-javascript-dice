@@ -1,0 +1,27 @@
+{
+  "name": "gha-javascript-dice",
+  "version": "1.0.0",
+  "description": "Javascript reusing actions for dices throwing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx ncc build index.js --license license.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubioMorenoJA/gha-javascript-dice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubioMorenoJA/gha-javascript-dice/issues"
+  },
+  "homepage": "https://github.com/RubioMorenoJA/gha-javascript-dice#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4"
+  }
+}
