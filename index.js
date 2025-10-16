@@ -11,7 +11,7 @@ try {
     console.log(`The event payload: ${payloadEvent}`);
     
     const diceOrder = core.getInput('dice-order');
-    console.log(`Dice order: ${diceOrder}`);
+    console.notice(`Dice order: ${diceOrder}`);
     core.setOutput('dice1', rollDice());
     if (diceOrder === 'two') {
         core.setOutput('dice2', rollDice());
