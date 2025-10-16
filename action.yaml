@@ -1,0 +1,16 @@
+name: 12b [custom] Action Exercise
+description: An action with dices throwing exercise
+inputs:
+  dice-order:
+    description: 'Order of the dice to be thrown (one or two)'
+    required: true
+    default: two
+    type: string
+outputs:
+  dice1: 
+    description: 'Value of the first dice'
+  dice2: 
+    description: 'Value of the second dice'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
